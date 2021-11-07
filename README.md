@@ -12,24 +12,32 @@ A python program uses the [pyttsx3](https://pyttsx3.readthedocs.io/en/latest/eng
 
 ### Steps to run the project
 
-1. Clone the repository
+1. Clone this repository
+```shell
+git clone https://github.com/KylerJohnsonDev/py-text-to-speech.git
+```
 
-2. From inside of the project directory, create a virtual environment:
+2. `cd` into the project directory
+```shell
+cd py-text-to-speech
+```
+
+3. From inside of the project directory, create a virtual environment:
 ```shell
 python -m venv ./venv
 ```
 
-3. Activate the virtual environment:
+4. Activate the virtual environment:
 ```shell
 source venv/bin/activate
 ```
 
-4. Install pyttsx3:
+5. Install pyttsx3:
 ```shell
 python -m pip install pyttsx3
 ```
 
-5. Run the program:
+6. Run the program:
 ```shell
 python main.py
 ```
